@@ -327,6 +327,7 @@ section.block.tinted {
 
 .portrait {
   width: 100%;
+  max-width: 220px;
   aspect-ratio: 4 / 5;
   background: var(--sand-deep);
   border-radius: 4px;
