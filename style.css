@@ -329,6 +329,26 @@ section.block.tinted {
   .doctor-row { grid-template-columns: 1fr; }
 }
 
+.contact-icon-list {
+  list-style: none;
+  padding: 0;
+  margin: 16px 0 0 0;
+  display: grid;
+  gap: 10px;
+  font-size: 0.92rem;
+}
+.contact-icon-list li {
+  list-style: none;
+}
+.contact-icon-list a {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--ink);
+  text-decoration: none;
+}
+.contact-icon-list a:hover { color: var(--red-deep); }
+
 .doctors-row {
   display: grid;
   grid-template-columns: 1fr 1fr;
