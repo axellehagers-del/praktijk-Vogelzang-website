@@ -340,7 +340,8 @@ section.block.tinted {
 .contact-icon-list li {
   list-style: none;
 }
-.contact-icon-list a {
+.contact-icon-list a,
+.contact-icon-list li > span {
   display: flex;
   align-items: center;
   gap: 8px;
