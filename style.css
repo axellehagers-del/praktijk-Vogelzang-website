@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Work+Sans:wght@400;500;600&display=swap');
 
+/* Eigen 'j' met rechte staart (alleen de letter j) */
+@font-face { font-family: 'Fraunces J'; src: url('assets/fonts/fraunces-j-500.woff2') format('woff2'); font-weight: 500; unicode-range: U+006A; font-display: swap; }
+@font-face { font-family: 'Fraunces J'; src: url('assets/fonts/fraunces-j-600.woff2') format('woff2'); font-weight: 600; unicode-range: U+006A; font-display: swap; }
+
 :root {
   --ink: #332E2A;
   --white: #FFFFFF;
@@ -25,7 +29,7 @@ body {
 }
 
 h1, h2, h3 {
-  font-family: 'Fraunces', serif;
+  font-family: 'Fraunces J', 'Fraunces', serif;
   font-weight: 500;
   line-height: 1.15;
   margin: 0 0 0.5em 0;
@@ -381,7 +385,7 @@ section.block.tinted {
 
 .doctor-name {
   margin-top: 12px;
-  font-family: 'Fraunces', serif;
+  font-family: 'Fraunces J', 'Fraunces', serif;
   font-weight: 600;
   font-size: 1.05rem;
   color: var(--red-deep);
@@ -480,3 +484,6 @@ a:focus-visible, button:focus-visible {
   outline: 2px solid var(--red);
   outline-offset: 2px;
 }
+
+.info-grid.contact-grid { grid-template-columns: 1.3fr 0.7fr; }
+@media (max-width: 720px) { .info-grid.contact-grid { grid-template-columns: 1fr; } }
