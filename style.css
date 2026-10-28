@@ -484,5 +484,3 @@ a:focus-visible, button:focus-visible {
 
 .info-grid.contact-grid { grid-template-columns: 1.3fr 0.7fr; }
 @media (max-width: 720px) { .info-grid.contact-grid { grid-template-columns: 1fr; } }
-
-.section-photo.wide-photo { aspect-ratio: 2 / 1; }
