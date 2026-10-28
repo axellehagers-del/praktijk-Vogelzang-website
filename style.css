@@ -158,8 +158,8 @@ nav.tabs a[aria-current="page"] {
 
 .section-photo-row {
   display: grid;
-  grid-template-columns: 300px 1fr;
-  gap: 40px;
+  grid-template-columns: 460px 1fr;
+  gap: 48px;
   align-items: center;
 }
 .section-photo {
@@ -168,7 +168,7 @@ nav.tabs a[aria-current="page"] {
 }
 @media (max-width: 760px) {
   .section-photo-row { grid-template-columns: 1fr; }
-  .section-photo { max-width: 320px; }
+  .section-photo { max-width: 100%; }
 }
 
 .photo-row {
