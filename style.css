@@ -158,7 +158,7 @@ nav.tabs a[aria-current="page"] {
 
 .section-photo-row {
   display: grid;
-  grid-template-columns: 460px 1fr;
+  grid-template-columns: 380px 1fr;
   gap: 48px;
   align-items: center;
 }
